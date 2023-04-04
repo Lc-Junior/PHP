@@ -24,7 +24,7 @@
    $fr= @$_POST['txtfrase'];
    ?>
   <form id="form1" name="form1" method="post" action="">
-          Massa: <br><input type="number" name="txtfrase" id="txtfrase" placeholder="Digite a massa aqui..."><br>
+          Massa: <br><input type="text" name="txtfrase" id="txtfrase" placeholder="Digite a massa aqui..."><br>
           <input type="submit" name="button" id="button" value="Enviar">
     </form> 
 </div>
