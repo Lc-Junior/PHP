@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="shortcut icon" href="104877439.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formuca.css">
     <title>Formulario</title>
   </head>
   <body>
@@ -24,11 +24,8 @@
    $fr= @$_POST['txtfrase'];
    ?>
   <form id="form1" name="form1" method="post" action="">
-      <table width="843" border="0"><tr>
-          Salário: <br><input type="text" name="txtfrase" id="txtfrase" placeholder="Digite seu salario"></td>
-          <td><input type="submit" name="button" id="button" value="Enviar" /></td>
-          <td>&nbsp;</td></tr>
-        </table>
+          Salário: <br><input type="text" name="txtfrase" id="txtfrase" placeholder="Digite seu salario..."><br>
+          <input type="submit" name="button" id="button" value="Enviar">
     </form> 
 </div>
 <div class="alert alert-warning" role="alert">
