@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    background-image: linear-gradient(to right, rgb(0, 195, 255), rgb(0, 255, 157));
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formuca{
+    position: relative;
+    width: 50vw;
+    height: 60vh;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgba(67, 68, 67, 0.474),rgb(158, 158, 158));
+    border: 5px red;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 4px grey;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    align-items: center;
+    color: black;
+    margin: 20px 10px 40px 10px;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+#form1{
+    margin: 70px 10px 10px 10px;
+    font-size: 1.5vw;
+}
+
+#txtfrase{
+    border: 2px solid rgb(236, 219, 219);
+    border-radius: 6px;
+    margin: 10px;
+    text-align: center;
+    font-size: 2vw;
+}
+
+#button{
+    margin: 5px;
+    padding: 4px;
+    border: 1px solid rgb(111, 0, 255);
+    border-radius: 10px;
+    font-size: 2vw;
+    background-color: darkgray;
+    color: white;
+}
+
+#button:hover{
+    cursor: pointer;
+    color: rgb(211, 208, 18);
+}
+
+div.alert{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}

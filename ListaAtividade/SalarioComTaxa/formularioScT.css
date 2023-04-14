@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, rgba(15, 209, 54, 0.54), rgb(26, 118, 67));
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
+.formuca{
+    width: 250px;
+    height: 350px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgba(85, 85, 85, 0.474),rgb(158, 158, 158));
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(28, 28, 28);
+}
+
+.formuca-2{
+    width: 250px;
+    height: 350px;
+    margin: 50px 20px 20px 20px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgba(85, 85, 85, 0.474),rgb(158, 158, 158));
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(28, 28, 28);
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin: 10px 10px 40px 10px;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+#form1{
+    margin: 10px;
+    font-size: 1.5vw;
+}
+
+#txtfrase{
+    border: 2px solid rgb(236, 219, 219);
+    border-radius: 6px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+#button{
+    margin: 5px;
+    padding: 4px;
+    border: 1px solid rgb(190, 31, 31);
+    border-radius: 10px;
+    font-size: 2vw;
+    background-color: darkgray;
+    color: white;
+}
+
+#button:hover{
+    cursor: pointer;
+    color: rgb(190, 31, 31);
+}
+
+div.alert{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
